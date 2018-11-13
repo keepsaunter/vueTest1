@@ -1,7 +1,7 @@
 <style lang='less'>
 </style>
 <template>
-	<div>testdsfd2</div>
+	<div>testdsfd22</div>
 </template>
 <script>
 	export default {
