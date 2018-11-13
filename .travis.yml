@@ -16,8 +16,11 @@ after_script:
   - cd ./dist
   - git init
   - cat > CNAME << EOF
-  - yes vuepro1.saunter.shop
-  - yes EOF
+  - echo \n
+  - vuepro1.saunter.shop
+  - echo \n
+  - EOF
+  - echo \n
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
   - git add .
