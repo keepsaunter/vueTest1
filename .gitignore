@@ -1,0 +1,13 @@
+node_modules/
+.sass-cache/
+ext/build/
+ext/ext-base
+embedJs/ext-base-remote/
+*.sublime-project
+*.sublime-workspace
+.idea
+**/dist/
+**/node_modules/
+npm-debug.log
+operate/*
+
