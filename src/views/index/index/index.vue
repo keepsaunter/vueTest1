@@ -1,7 +1,7 @@
 <style lang='less'>
 </style>
 <template>
-	<div>ouchao666888</div>
+	<div>test</div>
 </template>
 <script>
 	export default {
