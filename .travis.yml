@@ -1,0 +1,14 @@
+language: javascript
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install
+
+script:
+  - npm run build
+
+branches:
+  only:
+    -master
