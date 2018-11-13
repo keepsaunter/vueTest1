@@ -15,7 +15,7 @@ script:
 after_script:
   - cd ./dist
   - git init
-  - echo "${GH_DOMAIN}" >> CNAME
+  - echo -n "${GH_DOMAIN}" >> CNAME
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
   - git add .
