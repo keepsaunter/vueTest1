@@ -143,7 +143,21 @@ for (var pathname in pages) {
         template: "ejs-render-loader!"+pages[pathname], // 模板路径
         chunks: ['vendor', pathname], // 每个html引用的js模块
         inject: true, // js插入位置
-        hash: true
+        hash: true,
+        minify: {
+            removeComments: true,
+            collapseWhitespace: true,
+            removeRedundantAttributes: true,
+            useShortDoctype: true,
+            removeEmptyAttributes: true,
+            removeStyleLinkTypeAttributes: true,
+            keepClosingSlash: true,
+            minifyJS: true,
+            minifyCSS: true,
+            minifyURLs: true,
+        },
+        xhtml: true
+
     };
 
     webpackConfig.plugins.push(new HtmlWebpackPlugin(conf));
